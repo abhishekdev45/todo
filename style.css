@@ -1,0 +1,98 @@
+/* Overall container styles */
+#container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  /* Form styles */
+  #form {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Label styles */
+  label {
+    display: inline;
+    margin-top: 10px;
+  }
+  
+  /* Input styles */
+  input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+
+  #submitBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  #submitBtn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Display area styles */
+  #display {
+    margin-top: 20px;
+  }
+  
+  /* Task lists styles */
+  #todoTask , #doneTask {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* List item styles */
+  li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .checkBtn, .deleteBtn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  .checkBtn{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+  }
+  .deleteBtn{
+    position: absolute;
+    top: 8px;
+    right: 5px;
+  }
+  .checkBtn:hover {
+    color: #4ec552;
+    background-color: #d3f4d4;
+  }
+  
+  .deleteBtn:hover {
+    color: #f44336;
+    background-color:antiquewhite;
+  }
+  
+  h3 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+  }
+  

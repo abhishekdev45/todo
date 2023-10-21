@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <form id="form">
+            <label for="todoName">To do Name :</label>
+            <input type="text" id="todoName" name="todoName">
+            <label for="description">Description :</label>
+            <input type="text" id="description" name="description">
+            <button type ="submit" id="submitBtn">Add Todo</button>
+        </form>
+    </div>
+    <div id="display">
+        <div id="todoDisplay">
+            <h3>Todo Tasks</h3>
+            <ul id="todoTask"></ul>
+        </div>
+        <div id="doneTask">
+            <h3>Task Done</h3>
+            <ul id="doneTask"></ul>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js" integrity="sha512-emSwuKiMyYedRwflbZB2ghzX8Cw8fmNVgZ6yQNNXXagFzFOaQmbvQ1vmDkddHjm5AITcBIZfC7k4ShQSjgPAmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src = "app.js"></script>
+</body>
+</html>
